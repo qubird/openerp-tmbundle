@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;record model="ir.actions.act_window" id="action_${1:object_name}_tree_view"&gt;
+    &lt;field name="name"&gt;${2:objectname}&lt;/field&gt;
+    &lt;field name="type"&gt;ir.actions.act_window&lt;/field&gt;
+    &lt;field name="res_model"&gt;${2:objectname}&lt;/field&gt;
+&lt;!--&lt;field name="domain"&gt;[('field_name','condition',criteria)]&lt;/field&gt;--&gt;
+    &lt;field name="view_type"&gt;form&lt;/field&gt;
+    &lt;field name="view_mode"&gt;tree,form&lt;/field&gt;
+    &lt;field name="view_id" ref="${1:object_name}_tree_view"/&gt;
+&lt;!--&lt;field name="usage"&gt;menu&lt;/field&gt;--&gt;
+&lt;!--&lt;field name="target"&gt;new&lt;/field&gt;--&gt;
+&lt;/record&gt;
+</string>
+	<key>name</key>
+	<string>View Action</string>
+	<key>scope</key>
+	<string>source.openerp.xml</string>
+	<key>tabTrigger</key>
+	<string>action</string>
+	<key>uuid</key>
+	<string>6D2297ED-2F9C-4D41-BEB6-7433F11BD446</string>
+</dict>
+</plist>

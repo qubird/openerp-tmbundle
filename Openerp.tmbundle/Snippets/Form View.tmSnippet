@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;record model="ir.ui.view" id="${1:object_name}_form_view"&gt;
+    &lt;field name="name"&gt;${2:objectname}.form&lt;/field&gt;
+    &lt;field name="model"&gt;${2:objectname}&lt;/field&gt;
+    &lt;field name="type"&gt;form&lt;/field&gt;
+    &lt;field name="arch" type="xml"&gt;
+        &lt;form string="${3:form_string}"&gt;
+            &lt;field name="name" select="1"/&gt;
+        &lt;/form&gt;
+    &lt;/field&gt;
+&lt;/record&gt;</string>
+	<key>name</key>
+	<string>Form View</string>
+	<key>scope</key>
+	<string>source.openerp.xml</string>
+	<key>tabTrigger</key>
+	<string>form</string>
+	<key>uuid</key>
+	<string>F458C452-554F-4564-92EA-0B80AB7FDFD0</string>
+</dict>
+</plist>

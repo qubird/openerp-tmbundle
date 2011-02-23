@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;act_window name="${1:string}"
+			domain="[('${2:field}', '${3:condition}', ${4:active_id})]"
+			res_model="${5:res_model}"
+			src_model="${6:src_model}"
+			id="${7:act_unique_id}"/&gt;</string>
+	<key>name</key>
+	<string>Act Window</string>
+	<key>scope</key>
+	<string>source.openerp.xml</string>
+	<key>tabTrigger</key>
+	<string>act_window</string>
+	<key>uuid</key>
+	<string>4189CF9C-B4CE-415A-B12C-124A1B9E2204</string>
+</dict>
+</plist>

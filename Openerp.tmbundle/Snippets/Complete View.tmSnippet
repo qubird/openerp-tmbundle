@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;record model="ir.ui.view" id="${1:object_name}_tree_view"&gt;
+    &lt;field name="name"&gt;${2:objectname}.tree&lt;/field&gt;
+    &lt;field name="model"&gt;${2:objectname}&lt;/field&gt;
+    &lt;field name="type"&gt;tree&lt;/field&gt;
+    &lt;field name="arch" type="xml"&gt;
+        &lt;tree string="${3:tree_string}"&gt;
+            &lt;field name="name"/&gt;
+        &lt;/tree&gt;
+    &lt;/field&gt;
+&lt;/record&gt;
+
+&lt;record model="ir.ui.view" id="${1:object_name}_form_view"&gt;
+    &lt;field name="name"&gt;${2:objectname}.form&lt;/field&gt;
+    &lt;field name="model"&gt;${2:objectname}&lt;/field&gt;
+    &lt;field name="type"&gt;form&lt;/field&gt;
+    &lt;field name="arch" type="xml"&gt;
+        &lt;form string="${4:form_string}"&gt;
+            &lt;field name="name" select="1"/&gt;
+        &lt;/form&gt;
+    &lt;/field&gt;
+&lt;/record&gt;
+
+&lt;record model="ir.actions.act_window" id="action_${1:object_name}_tree_view"&gt;
+    &lt;field name="name"&gt;${2:objectname}&lt;/field&gt;
+    &lt;field name="type"&gt;ir.actions.act_window&lt;/field&gt;
+    &lt;field name="res_model"&gt;${2:objectname}&lt;/field&gt;
+&lt;!-- &lt;field name="domain"&gt;[('field_name','condition',criteria)]&lt;/field&gt;--&gt;
+    &lt;field name="view_type"&gt;form&lt;/field&gt;
+    &lt;field name="view_mode"&gt;tree,form&lt;/field&gt;
+    &lt;field name="view_id" ref="${1:object_name}_tree_view"/&gt;
+&lt;/record&gt;
+
+&lt;menuitem id="${1:object_name}_menu" name="${2:objectname}" parent="" action="action_${1:object_name}_tree_view"/&gt;</string>
+	<key>name</key>
+	<string>Complete View</string>
+	<key>scope</key>
+	<string>source.openerp.xml</string>
+	<key>tabTrigger</key>
+	<string>view</string>
+	<key>uuid</key>
+	<string>B4D25658-8D03-400E-A405-3161AF51ACD0</string>
+</dict>
+</plist>

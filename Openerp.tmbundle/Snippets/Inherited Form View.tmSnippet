@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;record model="ir.ui.view" id="${1:object_name}_form_view"&gt;
+       &lt;field name="name"&gt;${2:objectname}.form&lt;/field&gt;
+       &lt;field name="model"&gt;${2:objectname}&lt;/field&gt;
+       &lt;field name="type"&gt;form&lt;/field&gt;
+       &lt;field name="inherit_id" ref="${3:view_name}"/&gt;
+       &lt;field name="arch" type="xml"&gt;
+           &lt;form string="form_string"&gt;
+               &lt;field name="${4:field_name}" position="position"/&gt;
+                   &lt;field name="new_field"/&gt;
+           &lt;/form&gt;
+       &lt;/field&gt;
+&lt;/record&gt;</string>
+	<key>name</key>
+	<string>Inherited Form View</string>
+	<key>scope</key>
+	<string>source.openerp.xml</string>
+	<key>tabTrigger</key>
+	<string>form+</string>
+	<key>uuid</key>
+	<string>9D7CDC5B-C7B9-47DE-9777-E35F991FC1E6</string>
+</dict>
+</plist>

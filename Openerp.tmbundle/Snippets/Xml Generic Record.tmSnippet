@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;record id="${1:id}" model="${2:model}"&gt;
+
+&lt;/record&gt;</string>
+	<key>name</key>
+	<string>Generic Record</string>
+	<key>scope</key>
+	<string>source.openerp.xml</string>
+	<key>tabTrigger</key>
+	<string>rec</string>
+	<key>uuid</key>
+	<string>AF1F0AAD-FBEA-45DE-8937-F0D2BDEC70A3</string>
+</dict>
+</plist>

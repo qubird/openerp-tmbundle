@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Openerp XML</string>
+	<key>ordering</key>
+	<array>
+		<string>9AECBC53-CAE2-40C5-B9E2-26110225FA1F</string>
+		<string>0727D1C7-315C-4606-84CB-EE083BC323F7</string>
+		<string>030CD8C6-DC2A-4A4A-8834-558FB5B95F60</string>
+		<string>AF1F0AAD-FBEA-45DE-8937-F0D2BDEC70A3</string>
+		<string>99AFD130-98F3-432C-ACA5-EC1B76738B9D</string>
+		<string>6406F6C2-ACCE-4296-9CBD-7CFB26A004A1</string>
+		<string>B4D25658-8D03-400E-A405-3161AF51ACD0</string>
+		<string>4189CF9C-B4CE-415A-B12C-124A1B9E2204</string>
+		<string>1BBC6BF1-8778-40FF-861B-AD95F1CBD1F0</string>
+		<string>F458C452-554F-4564-92EA-0B80AB7FDFD0</string>
+		<string>9D7CDC5B-C7B9-47DE-9777-E35F991FC1E6</string>
+		<string>BD7B8AE1-AB17-4517-A957-30D82F7C01D1</string>
+		<string>0CA2DCCA-AA98-453B-A724-B10CAD817EF8</string>
+		<string>B437A60B-3418-41C3-A7E3-D9E4B7BA0866</string>
+		<string>4D842B9D-4311-4166-8B07-3FFD45899D1C</string>
+		<string>90C41177-5569-40E4-92F9-84E614170733</string>
+		<string>5D40F0C9-06CB-4A26-9CAD-7F333A2489EF</string>
+		<string>6D2297ED-2F9C-4D41-BEB6-7433F11BD446</string>
+		<string>F73000D4-BD51-47F8-96F2-B258CDD35247</string>
+		<string>284E8387-8B67-40AD-A607-E4F24868FDAF</string>
+		<string>67B60CBF-09A1-4F8C-BE71-2D3DF7611D52</string>
+		<string>5CD677BD-5CB5-420A-BEF4-932E065EB458</string>
+	</array>
+	<key>uuid</key>
+	<string>5E6EA81F-EF36-4133-930A-7F512523CD30</string>
+</dict>
+</plist>

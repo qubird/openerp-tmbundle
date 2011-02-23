@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;record id="${1:transition_id}" model="workflow.transition"&gt;
+    &lt;field name="act_from" ref="${2:from_state}"/&gt;
+    &lt;field name="act_to" ref="${3:to_state}"/&gt;
+    &lt;field name="signal"&gt;${4:signal_name}&lt;/field&gt;
+&lt;!--&lt;field name="role_id" ref="role_id"/&gt; --&gt;
+&lt;!--&lt;field name="condition"&gt;condition_function&lt;/field&gt; --&gt;
+&lt;!--&lt;field name="trigger_model"&gt;trigger.model&lt;/field&gt;--&gt;
+&lt;!--&lt;field name="trigger_expr_id"&gt;trigger_expr_id&lt;/field&gt;--&gt;
+&lt;/record&gt;</string>
+	<key>name</key>
+	<string>Workflow Transition</string>
+	<key>scope</key>
+	<string>source.openerp.xml</string>
+	<key>tabTrigger</key>
+	<string>wkf.trans</string>
+	<key>uuid</key>
+	<string>67B60CBF-09A1-4F8C-BE71-2D3DF7611D52</string>
+</dict>
+</plist>

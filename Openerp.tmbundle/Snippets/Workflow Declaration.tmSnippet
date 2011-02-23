@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;record model="workflow" id=${1:workflow_id}&gt;
+    &lt;field name="name"&gt;${2:workflow.name}&lt;/field&gt;
+    &lt;field name="osv"&gt;${3:resource.model}&lt;/field&gt;
+    &lt;field name="on_create"&gt;${4:True | False}&lt;/field&gt;
+&lt;/record&gt;</string>
+	<key>name</key>
+	<string>Workflow Declaration</string>
+	<key>scope</key>
+	<string>source.openerp.xml</string>
+	<key>tabTrigger</key>
+	<string>wkf</string>
+	<key>uuid</key>
+	<string>5CD677BD-5CB5-420A-BEF4-932E065EB458</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;field eval="${1:eval}" name="${2:name}"/&gt;</string>
+	<key>name</key>
+	<string>Eval Field</string>
+	<key>scope</key>
+	<string>source.openerp.xml</string>
+	<key>tabTrigger</key>
+	<string>eval</string>
+	<key>uuid</key>
+	<string>6406F6C2-ACCE-4296-9CBD-7CFB26A004A1</string>
+</dict>
+</plist>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;button name="${1:function_name}" states="${2:state}" string="${3:string}" type="${4:object}" icon="${5:icon}"/&gt;
+</string>
+	<key>name</key>
+	<string>Button</string>
+	<key>scope</key>
+	<string>source.openerp.xml</string>
+	<key>tabTrigger</key>
+	<string>button</string>
+	<key>uuid</key>
+	<string>1BBC6BF1-8778-40FF-861B-AD95F1CBD1F0</string>
+</dict>
+</plist>

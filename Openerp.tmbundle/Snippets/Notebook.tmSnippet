@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;notebook&gt;
+    &lt;page string="${1:page_name}"&gt;
+        &lt;field name="name" select="1"/&gt;
+    &lt;/page&gt;
+&lt;/notebook&gt;</string>
+	<key>name</key>
+	<string>Notebook</string>
+	<key>scope</key>
+	<string>source.openerp.xml</string>
+	<key>tabTrigger</key>
+	<string>notebook</string>
+	<key>uuid</key>
+	<string>BD7B8AE1-AB17-4517-A957-30D82F7C01D1</string>
+</dict>
+</plist>

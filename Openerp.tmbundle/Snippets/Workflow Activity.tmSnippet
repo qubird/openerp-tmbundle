@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;record id="act_${1:statename}" model="workflow.activity"&gt;
+    &lt;field name="wkf_id" ref="${2:wkf}"/&gt;
+    &lt;!--&lt;field name="flow_start"&gt;True&lt;/field&gt;--&gt;
+    &lt;!--&lt;field name="flow_stop"&gt;True&lt;/field&gt;--&gt;
+    &lt;field name="name"&gt;${1:statename}&lt;/field&gt;
+    &lt;field name="action"&gt;${3:function}&lt;/field&gt;
+    &lt;field name="kind"&gt;function&lt;/field&gt;
+&lt;/record&gt;</string>
+	<key>name</key>
+	<string>Workflow Activity</string>
+	<key>scope</key>
+	<string>source.openerp.xml</string>
+	<key>tabTrigger</key>
+	<string>wkf.act</string>
+	<key>uuid</key>
+	<string>284E8387-8B67-40AD-A607-E4F24868FDAF</string>
+</dict>
+</plist>

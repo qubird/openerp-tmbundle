@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;report id="id" model="${1:objectname}" name="${2:name}" rml="${3:path_to_rml}" string="${4:string}" 
+    &lt;!-- auto="False" --&gt;
+    &lt;!-- menu="False" --&gt;
+    &lt;!-- keyword="client_print_multi" --&gt;
+/&gt;</string>
+	<key>name</key>
+	<string>Report</string>
+	<key>scope</key>
+	<string>source.openerp.xml</string>
+	<key>tabTrigger</key>
+	<string>report</string>
+	<key>uuid</key>
+	<string>4D842B9D-4311-4166-8B07-3FFD45899D1C</string>
+</dict>
+</plist>

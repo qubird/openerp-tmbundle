@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;menuitem id="${1:object_name}_menu" name="${2:objectname}" parent="$3" action="action_${1:object_name}_tree_view"/&gt;</string>
+	<key>name</key>
+	<string>Menu Item</string>
+	<key>scope</key>
+	<string>source.openerp.xml</string>
+	<key>tabTrigger</key>
+	<string>menuitem</string>
+	<key>uuid</key>
+	<string>B437A60B-3418-41C3-A7E3-D9E4B7BA0866</string>
+</dict>
+</plist>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;wizard
+    string="${1:string}"
+    model="${2:objectname}"
+    name="${3:wizard_name}"
+    id="${4:wizard_id}"
+&lt;!--keyword="client_print_multi" --&gt;
+/&gt;</string>
+	<key>name</key>
+	<string>Wizard Declaration</string>
+	<key>scope</key>
+	<string>source.openerp.xml</string>
+	<key>tabTrigger</key>
+	<string>wiz</string>
+	<key>uuid</key>
+	<string>F73000D4-BD51-47F8-96F2-B258CDD35247</string>
+</dict>
+</plist>
