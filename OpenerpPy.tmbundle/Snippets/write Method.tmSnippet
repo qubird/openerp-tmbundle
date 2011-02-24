@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>def write(self, cr, uid, ids, vals, context=None):
+    #TODO: process before updating resource
+    res = super(${1:ModelName}, self).write(cr, uid, ids, vals, context)
+    return res</string>
+	<key>name</key>
+	<string>def write Method</string>
+	<key>scope</key>
+	<string>source.openerp.py</string>
+	<key>tabTrigger</key>
+	<string>def_write</string>
+	<key>uuid</key>
+	<string>61423D13-0C23-4BCA-ACC8-1B5F1A021E05</string>
+</dict>
+</plist>

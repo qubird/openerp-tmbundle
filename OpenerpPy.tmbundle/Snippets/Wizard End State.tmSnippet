@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>'${1:check}': {
+    'actions': [],
+    'result': {'type':'choice','next_state':self.${2:_check_condition}}
+    #TODO : define def ${2:_check_condition}(self, cr, uid, data, context):
+    }</string>
+	<key>name</key>
+	<string>Wizard End State</string>
+	<key>scope</key>
+	<string>source.openerp.py</string>
+	<key>tabTrigger</key>
+	<string>endstate</string>
+	<key>uuid</key>
+	<string>7105B710-EDB1-4D51-BC21-F024AB022802</string>
+</dict>
+</plist>

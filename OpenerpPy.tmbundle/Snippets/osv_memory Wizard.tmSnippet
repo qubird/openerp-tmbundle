@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>class ${1:wizard_name}(osv.osv_memory):
+    _name='config.compute.remaining'
+    _columns = {
+        '${2:field_name}' : fields.float('${3:Field Name}', digits=(16,2),),
+            }
+    
+    def ${4:task_name}(self, cr, uid, ids, context=None):
+        #Execute task
+        return {
+                'type': '${5:ir.actions.act_window_close}',
+        }
+${1:wizard_name}()</string>
+	<key>name</key>
+	<string>osv_memory Wizard</string>
+	<key>scope</key>
+	<string>source.openerp.py</string>
+	<key>tabTrigger</key>
+	<string>wiz_mem</string>
+	<key>uuid</key>
+	<string>9C941A55-65D7-47ED-AC92-58C62AFFE1FE</string>
+</dict>
+</plist>

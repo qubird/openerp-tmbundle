@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>'${1:data}': fields.function(${2:_function_call}, method=True, type='${3:float}' string='${4:Label}', store=${5:True}),</string>
+	<key>name</key>
+	<string>Function Field</string>
+	<key>scope</key>
+	<string>source.openerp.py</string>
+	<key>tabTrigger</key>
+	<string>function</string>
+	<key>uuid</key>
+	<string>E7F9A5ED-4BF8-4591-8C7D-59792A802616</string>
+</dict>
+</plist>

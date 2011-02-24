@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:other_object}_ids = fields.many2many('${1:other_object}.name', '${2:actual_object}_${1:other_object}_rel', '${2:actual_object}_id', '${1:other_object}_id', '${3:Field Name}'),</string>
+	<key>name</key>
+	<string>Many2Many Field</string>
+	<key>scope</key>
+	<string>source.openerp.py</string>
+	<key>tabTrigger</key>
+	<string>m2m</string>
+	<key>uuid</key>
+	<string>7D69E907-BCFC-43C2-9A2E-BAABF6BB2839</string>
+</dict>
+</plist>

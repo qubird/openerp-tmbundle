@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>_sql_constraints = [('${1:name_uniq}', '${2:unique (name)}', '${3:The Name of the OpenERPModel must be unique !}')]</string>
+	<key>name</key>
+	<string>_sql_constraints</string>
+	<key>scope</key>
+	<string>source.openerp.py</string>
+	<key>tabTrigger</key>
+	<string>_sql_constr</string>
+	<key>uuid</key>
+	<string>63B54C50-3F2B-4A95-91FF-69FA7A5E68DF</string>
+</dict>
+</plist>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>def ${1:_check_method}(self, cr, uid, ids): 
+    #TODO : check condition and return boolean accordingly
+    return True
+_constraints = [(${1:_check_method}, 'Error: Invalid Message', ['${2:field_name}']), ]</string>
+	<key>name</key>
+	<string>_constraints</string>
+	<key>scope</key>
+	<string>source.openerp.py</string>
+	<key>tabTrigger</key>
+	<string>_constraints</string>
+	<key>uuid</key>
+	<string>9B8892A2-9F04-44AC-8A14-3BDB0F1550D5</string>
+</dict>
+</plist>

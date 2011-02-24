@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>'${1:name}': fields.char('${2:Label}', size=${3:64}, required=${4:False}, readonly=${4:False}),</string>
+	<key>name</key>
+	<string>Char Field</string>
+	<key>scope</key>
+	<string>source.openerp.py</string>
+	<key>tabTrigger</key>
+	<string>char</string>
+	<key>uuid</key>
+	<string>BC6852C9-E51E-48EB-BC82-3C329F98223B</string>
+</dict>
+</plist>

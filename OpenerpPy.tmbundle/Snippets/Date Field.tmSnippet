@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>#import time required to get currect date
+'${1:date}': fields.date('${1:date}'),</string>
+	<key>name</key>
+	<string>Date Field</string>
+	<key>scope</key>
+	<string>source.openerp.py</string>
+	<key>tabTrigger</key>
+	<string>date</string>
+	<key>uuid</key>
+	<string>22DEA0A5-E1D7-4E5C-97B8-EFF2B0E49C6D</string>
+</dict>
+</plist>

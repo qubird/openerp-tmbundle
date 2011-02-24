@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>domain=[('${1:state}','=','${2:done}')]</string>
+	<key>name</key>
+	<string>Domain Field Attribute</string>
+	<key>scope</key>
+	<string>source.openerp.py</string>
+	<key>tabTrigger</key>
+	<string>domain</string>
+	<key>uuid</key>
+	<string>B5CF7DB2-65FC-4903-99F8-5C8D58E64B6A</string>
+</dict>
+</plist>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>'property_${1:name}': fields.property( 
+    '${2:OpenerpModel}',
+    type='${3:many2one}',
+    relation='${2:OpenerpModel}',
+    string='${5:Label}',
+    method=True,
+    view_load=True,
+    domain=[('${6:state}','=','${7:done}')],
+    help="${8:Helpdescrip}"
+    required=${10:True}),</string>
+	<key>name</key>
+	<string>Property Field</string>
+	<key>scope</key>
+	<string>source.openerp.py</string>
+	<key>tabTrigger</key>
+	<string>property</string>
+	<key>uuid</key>
+	<string>8EBB5C0E-8E50-4839-85C3-79BB1DC111C8</string>
+</dict>
+</plist>

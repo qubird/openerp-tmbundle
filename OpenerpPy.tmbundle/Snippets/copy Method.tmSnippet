@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>def copy(self, cr, uid, id, default=None, context=None): 
+    res_id = super(${1:ModelName}, self).copy(cr, uid, id, default, context)
+    return res_id</string>
+	<key>name</key>
+	<string>def copy Method</string>
+	<key>scope</key>
+	<string>source.openerp.py</string>
+	<key>tabTrigger</key>
+	<string>def_copy</string>
+	<key>uuid</key>
+	<string>CE8C885B-6C2D-4A5A-934F-9AACCB0BBA35</string>
+</dict>
+</plist>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>'${1:other_model}_id':fields.many2one('${1:other_model}', '${3:Label}', required=${4:False}),</string>
+	<key>name</key>
+	<string>Many2One Field</string>
+	<key>scope</key>
+	<string>source.openerp.py
+    _columns = {
+        '${2:field_name}' : fields.float('${3:Field Name}', digits=(16,2),),
+            }
+    
+    def ${4:task_name}(self, cr, uid, ids, context=None):
+        #Execute task
+        return {
+                'type': '${5:ir.actions.act_window_close}',
+        }
+${1:wizard_name}()</string>
+	<key>tabTrigger</key>
+	<string>m2o</string>
+	<key>uuid</key>
+	<string>312AD5AC-7464-40E3-B651-B10D57B57371</string>
+</dict>
+</plist>

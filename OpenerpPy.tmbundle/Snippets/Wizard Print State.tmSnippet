@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>'${1:report}':{
+    'actions': [],
+    'result': {'type':'print', 'report':'${2:modelreportname}', 'state':'${3:end}'}
+}</string>
+	<key>name</key>
+	<string>Wizard Print State</string>
+	<key>scope</key>
+	<string>source.openerp.py</string>
+	<key>tabTrigger</key>
+	<string>printstate</string>
+	<key>uuid</key>
+	<string>9ABCB9FC-7602-4B96-80AF-34FA4EC4A2C9</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>fields_view_get(cr, uid, view_id, view_type, context, toolbar)</string>
+	<key>name</key>
+	<string>call fields_view_get Method</string>
+	<key>scope</key>
+	<string>source.openerp.py</string>
+	<key>tabTrigger</key>
+	<string>fields_view_get</string>
+	<key>uuid</key>
+	<string>53C2AA3E-AD72-4DB1-9BCC-CE67F2561D6C</string>
+</dict>
+</plist>

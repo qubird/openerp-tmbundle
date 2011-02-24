@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>states = {'${1:draft}':[('readonly',${2:False}),</string>
+	<key>name</key>
+	<string>Field States</string>
+	<key>scope</key>
+	<string>source.openerp.py</string>
+	<key>tabTrigger</key>
+	<string>field_states</string>
+	<key>uuid</key>
+	<string>F9625189-85B5-49FC-8463-5083ED9618CD</string>
+</dict>
+</plist>

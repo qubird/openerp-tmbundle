@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>def name_search(self, cr, uid, name, args=None, operator='ilike', context=None, limit=80):
+    #TODO: make a search on specific fields and get ids     
+    if not args:
+        args=[]
+    if not context:
+        context={}
+    ids = []
+    if name:
+        ids = self.search(cr, uid, [('code','ilike',name)]+ args, limit=limit)
+    if not ids:
+        ids = self.search(cr, uid, [('name',operator,name)]+ args, limit=limit)
+    self.name_get(cr, uid, ids, context=context)</string>
+	<key>name</key>
+	<string>def name_search Method</string>
+	<key>scope</key>
+	<string>source.openerp.py</string>
+	<key>tabTrigger</key>
+	<string>name_search</string>
+	<key>uuid</key>
+	<string>57B31865-4DB3-4D75-BA71-D2B02F9B57D1</string>
+</dict>
+</plist>

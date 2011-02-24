@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>'${1:number}': fields.float('${2:Label}', digits=(${3:16}, int(${4:config['price_accuracy']})),</string>
+	<key>name</key>
+	<string>Float Field</string>
+	<key>scope</key>
+	<string>source.openerp.py</string>
+	<key>tabTrigger</key>
+	<string>float</string>
+	<key>uuid</key>
+	<string>912D3B47-062E-47D1-841C-E145AC18D714</string>
+</dict>
+</plist>

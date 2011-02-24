@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>import wizard
+import pooler
+
+class ${1:WizardName}(wizard.interface):
+         '''
+         OpenERP Wizard
+         '''
+         ${2:form} = '''
+                        &lt;?xml version="1.0"?&gt;
+                        &lt;form string="Process Form"&gt;
+                        &lt;field name="${3:field}"/&gt;
+                        &lt;/form&gt;  '''
+
+         ${4:fields} = {
+                        '${3:field}': {'string': '${5:Label}', 'type': 'many2one', 'relation': 'res.company'},
+                }
+
+         def ${6:_get_defaults}(self, cr, uid, data, context):
+                #TODO : initlize required data
+                return data['form']
+
+         def ${8:_do_duplicate}(self, cr, uid, data, context):
+                pool = pooler.get_pool(cr.dbname)
+                return {}
+
+         states = {
+                'init': {
+                        'actions': [${6:_get_defaults}],
+                        'result': {'type': 'form', 'arch': ${2:form}, 'fields': ${4:fields}, 'state': (('end', 'Cancel'), ('${9:process}', 'Process'))},
+                },
+                '${9:process}': {
+                        'actions': [${8:_do_duplicate}],
+                        'result': {'type': 'state', 'state': 'end'},
+                },
+        }
+${1:WizardName}('${10:modelprocess}')</string>
+	<key>name</key>
+	<string>New Wizard</string>
+	<key>scope</key>
+	<string>source.openerp.py</string>
+	<key>tabTrigger</key>
+	<string>wizard</string>
+	<key>uuid</key>
+	<string>AC363F12-419D-458F-B7D6-80B45596ED98</string>
+</dict>
+</plist>

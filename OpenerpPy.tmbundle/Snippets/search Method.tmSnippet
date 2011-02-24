@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>def search(self, cr, uid, args, offset=0, limit=None, order=None, context=None, count=False):
+    #TODO : process on args before search
+    res = super(${1:ModelName}, self).search(cr, uid, args, offset, limit, order, context, count)
+    #TODO : process</string>
+	<key>name</key>
+	<string>def search Method</string>
+	<key>scope</key>
+	<string>source.openerp.py</string>
+	<key>tabTrigger</key>
+	<string>def_search</string>
+	<key>uuid</key>
+	<string>D1D3CF97-26C5-4B95-A702-09306E9D5EC7</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>'${1:field}_id': fields.related('${2:relation_field}','${1:field}_id', type='${3:many2one}', relation='${4:openerp.model}', string='${5:Label}'),</string>
+	<key>name</key>
+	<string>Related Field</string>
+	<key>scope</key>
+	<string>source.openerp.py</string>
+	<key>tabTrigger</key>
+	<string>related</string>
+	<key>uuid</key>
+	<string>D6A4110C-4985-496C-A00B-00C359968634</string>
+</dict>
+</plist>

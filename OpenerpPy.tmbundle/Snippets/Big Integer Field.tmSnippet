@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>'${1:number}': fields.integer_big('${2:Label}'),</string>
+	<key>name</key>
+	<string>Big Integer Field</string>
+	<key>scope</key>
+	<string>source.openerp.py</string>
+	<key>tabTrigger</key>
+	<string>bigint</string>
+	<key>uuid</key>
+	<string>CBD7490C-2219-4A9A-8A34-819BB0ADEAC3</string>
+</dict>
+</plist>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>def default_get(self, cr, uid, fields_list, context=None):
+    values = {} 
+    return values</string>
+	<key>name</key>
+	<string>default_get Method</string>
+	<key>scope</key>
+	<string>source.openerp.py</string>
+	<key>tabTrigger</key>
+	<string>default_get</string>
+	<key>uuid</key>
+	<string>7E75E55E-55EE-4B7C-A865-52333ACA9C21</string>
+</dict>
+</plist>

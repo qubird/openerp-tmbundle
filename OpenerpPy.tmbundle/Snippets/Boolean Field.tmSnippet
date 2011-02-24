@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>'${1:name}': fields.boolean('${2:Label}', required=${3:False}),</string>
+	<key>name</key>
+	<string>Boolean Field</string>
+	<key>scope</key>
+	<string>source.openerp.py</string>
+	<key>tabTrigger</key>
+	<string>bool</string>
+	<key>uuid</key>
+	<string>895D4CA2-214A-4248-BF5C-01D08FF56A05</string>
+</dict>
+</plist>

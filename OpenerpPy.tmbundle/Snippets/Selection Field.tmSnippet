@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>'${1:state}': fields.selection([
+    ('draft','Draft'),
+    ('done','Done'),
+	], '${3:State}', select=True, readonly=${4:True}),</string>
+	<key>name</key>
+	<string>Selection Field</string>
+	<key>scope</key>
+	<string>source.openerp.py</string>
+	<key>tabTrigger</key>
+	<string>sel</string>
+	<key>uuid</key>
+	<string>0FFA998C-CFB8-4D48-AB6D-E968944F547B</string>
+</dict>
+</plist>

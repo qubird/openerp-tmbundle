@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>_inherit = '${1:openerpmodel}' 
+#_name = '${1:openerpmodel}'</string>
+	<key>name</key>
+	<string>_inherit</string>
+	<key>scope</key>
+	<string>source.openerp.py</string>
+	<key>tabTrigger</key>
+	<string>_inherit</string>
+	<key>uuid</key>
+	<string>3DC2339D-6CB8-4159-8806-97907430B527</string>
+</dict>
+</plist>

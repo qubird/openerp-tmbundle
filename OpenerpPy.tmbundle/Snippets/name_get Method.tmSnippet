@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>def name_get(self, cr, uid, ids, context=None):
+    #TODO : search on name field or _res_name fields 
+    #and make a result [(id, name), (id, name), ...] 
+    res = self.read(cr, uid, ids, [self._rec_name], context, load='_classic_write')
+    return res</string>
+	<key>name</key>
+	<string>def name_get Method</string>
+	<key>scope</key>
+	<string>source.openerp.py</string>
+	<key>tabTrigger</key>
+	<string>def_name_get</string>
+	<key>uuid</key>
+	<string>395E9AD8-B1DC-443F-88E6-C81A22E853B1</string>
+</dict>
+</plist>

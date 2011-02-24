@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>def fields_view_get(self, cr, uid, view_id=None, view_type='form', context=None, toolbar=False):
+    res = super(${1:ModelName}, self).fields_view_get(cr, uid, view_id, view_type, context, toolbar)
+    return res</string>
+	<key>name</key>
+	<string>def fields_view_get Method</string>
+	<key>scope</key>
+	<string>source.openerp.py</string>
+	<key>tabTrigger</key>
+	<string>def_fields_view_get</string>
+	<key>uuid</key>
+	<string>69864D63-E46D-4373-A228-6831773A9773</string>
+</dict>
+</plist>

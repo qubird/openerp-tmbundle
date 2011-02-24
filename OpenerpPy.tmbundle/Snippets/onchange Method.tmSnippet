@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>def onchange_${1:fields}(self, cr, uid, ${1:fields}, context=None):
+    #TODO : compute new values from the db/system
+    return {   'field_1': res1   'field_2': res }</string>
+	<key>name</key>
+	<string>onchange Method</string>
+	<key>scope</key>
+	<string>source.openerp.py</string>
+	<key>tabTrigger</key>
+	<string>onchange</string>
+	<key>uuid</key>
+	<string>BD25BAB2-9258-4C87-AC25-6F1E2DDEF066</string>
+</dict>
+</plist>

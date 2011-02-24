@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>store={
+    #TODO : define model and function call for store field 
+    '${1:field_name}': (_get_invoice_from_line, None, 50),
+}</string>
+	<key>name</key>
+	<string>Store Field Attribute</string>
+	<key>scope</key>
+	<string>source.openerp.py</string>
+	<key>tabTrigger</key>
+	<string>store</string>
+	<key>uuid</key>
+	<string>62CA6511-5A67-495E-941B-B049F494691D</string>
+</dict>
+</plist>

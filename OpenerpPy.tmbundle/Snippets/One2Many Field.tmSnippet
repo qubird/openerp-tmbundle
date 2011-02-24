@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>'${1:data}_ids':fields.one2many('${2:OpenerpModel}', '${3:field}_id', '${4:Label}', required=${5:False}),</string>
+	<key>name</key>
+	<string>One2Many Field</string>
+	<key>scope</key>
+	<string>source.openerp.py</string>
+	<key>tabTrigger</key>
+	<string>o2m</string>
+	<key>uuid</key>
+	<string>214C30DF-ACB6-471F-A70C-483174D00BC7</string>
+</dict>
+</plist>

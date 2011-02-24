@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>'${1:file}': fields.binary('${2:Label}', filters=${3:None}),</string>
+	<key>name</key>
+	<string>Binary Field</string>
+	<key>scope</key>
+	<string>source.openerp.py</string>
+	<key>tabTrigger</key>
+	<string>bin</string>
+	<key>uuid</key>
+	<string>51F6BAB2-0681-43D9-861C-12EA8C2EDEF5</string>
+</dict>
+</plist>

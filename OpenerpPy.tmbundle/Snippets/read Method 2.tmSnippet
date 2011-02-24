@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>def read(self, cr, uid, ids, fields=None, context=None, load='_classic_read'):
+    res = super(${1:ModelName}, self).read(cr, uid, ids, fields, context) 
+    #TODO : process on result
+    return res</string>
+	<key>name</key>
+	<string>def read Method</string>
+	<key>scope</key>
+	<string>source.openerp.py</string>
+	<key>tabTrigger</key>
+	<string>def_read</string>
+	<key>uuid</key>
+	<string>EBF57840-1BBD-4691-8A1C-935EE4B048C3</string>
+</dict>
+</plist>

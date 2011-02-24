@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>def ${1:method_name}(self, cr, uid, ids):
+    result = None
+    #TODO : OpenERP Business Process 
+    return result</string>
+	<key>name</key>
+	<string>New Method</string>
+	<key>scope</key>
+	<string>source.openerp.py    _name='config.compute.remaining'
+    _columns = {
+        '${2:field_name}' : fields.float('${3:Field Name}', digits=(16,2),),
+            }
+    
+    def ${4:task_name}(self, cr, uid, ids, context=None):
+        #Execute task
+        return {
+                'type': '${5:ir.actions.act_window_close}',
+        }
+${1:wizard_name}()</string>
+	<key>tabTrigger</key>
+	<string>def</string>
+	<key>uuid</key>
+	<string>53918C0C-D7C5-4FE9-A65C-343122932EE7</string>
+</dict>
+</plist>

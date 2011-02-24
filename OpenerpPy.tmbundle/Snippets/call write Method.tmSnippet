@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>write(cr, uid, ids, vals, context)</string>
+	<key>name</key>
+	<string>call write Method</string>
+	<key>scope</key>
+	<string>source.openerp.py</string>
+	<key>tabTrigger</key>
+	<string>write</string>
+	<key>uuid</key>
+	<string>E80818E8-302F-45FA-910B-E15A7F43D269</string>
+</dict>
+</plist>
