@@ -18,7 +18,7 @@ ${1:wizard_name}()</string>
 	<key>name</key>
 	<string>osv_memory Wizard</string>
 	<key>scope</key>
-	<string>source.openerp.py</string>
+	<string>source.python.openerp</string>
 	<key>tabTrigger</key>
 	<string>wiz_mem</string>
 	<key>uuid</key>

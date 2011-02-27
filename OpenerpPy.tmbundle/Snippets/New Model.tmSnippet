@@ -21,7 +21,7 @@ ${1:class_name}()</string>
 	<key>name</key>
 	<string>New Model</string>
 	<key>scope</key>
-	<string>source.openerp.py</string>
+	<string>source.python.openerp</string>
 	<key>tabTrigger</key>
 	<string>model</string>
 	<key>uuid</key>

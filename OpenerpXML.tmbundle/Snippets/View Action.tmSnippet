@@ -18,7 +18,7 @@
 	<key>name</key>
 	<string>View Action</string>
 	<key>scope</key>
-	<string>source.openerp.xml</string>
+	<string>text.xml.openerp</string>
 	<key>tabTrigger</key>
 	<string>action</string>
 	<key>uuid</key>

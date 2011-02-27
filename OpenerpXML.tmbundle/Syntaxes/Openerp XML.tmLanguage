@@ -10,8 +10,10 @@
 	<string>^\s*(&lt;[^!?%/](?!.+?(/&gt;|&lt;/.+?&gt;))|&lt;[!%]--(?!.+?--%?&gt;)|&lt;%[!]?(?!.+?%&gt;))</string>
 	<key>foldingStopMarker</key>
 	<string>^\s*(&lt;/[^&gt;]+&gt;|[/%]&gt;|--&gt;)\s*$</string>
+	<key>keyEquivalent</key>
+	<string>^~@o</string>
 	<key>name</key>
-	<string>Openerp XML</string>
+	<string>XML Openerp</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -560,7 +562,7 @@
 		</dict>
 	</dict>
 	<key>scopeName</key>
-	<string>source.openerp.xml</string>
+	<string>text.xml.openerp</string>
 	<key>uuid</key>
 	<string>9AECBC53-CAE2-40C5-B9E2-26110225FA1F</string>
 </dict>

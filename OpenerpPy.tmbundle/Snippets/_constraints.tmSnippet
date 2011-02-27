@@ -10,7 +10,7 @@ _constraints = [(${1:_check_method}, 'Error: Invalid Message', ['${2:field_name}
 	<key>name</key>
 	<string>_constraints</string>
 	<key>scope</key>
-	<string>source.openerp.py</string>
+	<string>source.python.openerp</string>
 	<key>tabTrigger</key>
 	<string>_constraints</string>
 	<key>uuid</key>

@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>Eval Field</string>
 	<key>scope</key>
-	<string>source.openerp.xml</string>
+	<string>text.xml.openerp</string>
 	<key>tabTrigger</key>
 	<string>eval</string>
 	<key>uuid</key>

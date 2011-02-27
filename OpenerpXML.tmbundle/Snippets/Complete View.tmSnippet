@@ -39,7 +39,7 @@
 	<key>name</key>
 	<string>Complete View</string>
 	<key>scope</key>
-	<string>source.openerp.xml</string>
+	<string>text.xml.openerp</string>
 	<key>tabTrigger</key>
 	<string>view</string>
 	<key>uuid</key>

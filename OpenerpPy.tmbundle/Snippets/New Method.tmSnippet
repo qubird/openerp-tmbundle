@@ -10,7 +10,7 @@
 	<key>name</key>
 	<string>New Method</string>
 	<key>scope</key>
-	<string>source.openerp.py    _name='config.compute.remaining'
+	<string>source.python.openerp    _name='config.compute.remaining'
     _columns = {
         '${2:field_name}' : fields.float('${3:Field Name}', digits=(16,2),),
             }

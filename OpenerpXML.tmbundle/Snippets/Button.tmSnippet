@@ -8,7 +8,7 @@
 	<key>name</key>
 	<string>Button</string>
 	<key>scope</key>
-	<string>source.openerp.xml</string>
+	<string>text.xml.openerp</string>
 	<key>tabTrigger</key>
 	<string>button</string>
 	<key>uuid</key>

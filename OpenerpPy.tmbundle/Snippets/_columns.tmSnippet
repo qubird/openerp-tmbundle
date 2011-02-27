@@ -9,7 +9,7 @@
 	<key>name</key>
 	<string>_columns</string>
 	<key>scope</key>
-	<string>source.openerp.py</string>
+	<string>source.python.openerp</string>
 	<key>tabTrigger</key>
 	<string>_col</string>
 	<key>uuid</key>

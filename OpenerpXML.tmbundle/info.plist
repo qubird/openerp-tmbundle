@@ -9,11 +9,9 @@
 	<key>description</key>
 	<string>A collection of snippets for Openerp XML data and record files</string>
 	<key>name</key>
-	<string>Openerp XML</string>
+	<string>XML Openerp</string>
 	<key>ordering</key>
 	<array>
-		<string>9AECBC53-CAE2-40C5-B9E2-26110225FA1F</string>
-		<string>0727D1C7-315C-4606-84CB-EE083BC323F7</string>
 		<string>030CD8C6-DC2A-4A4A-8834-558FB5B95F60</string>
 		<string>AF1F0AAD-FBEA-45DE-8937-F0D2BDEC70A3</string>
 		<string>99AFD130-98F3-432C-ACA5-EC1B76738B9D</string>
@@ -34,6 +32,8 @@
 		<string>284E8387-8B67-40AD-A607-E4F24868FDAF</string>
 		<string>67B60CBF-09A1-4F8C-BE71-2D3DF7611D52</string>
 		<string>5CD677BD-5CB5-420A-BEF4-932E065EB458</string>
+		<string>0727D1C7-315C-4606-84CB-EE083BC323F7</string>
+		<string>9AECBC53-CAE2-40C5-B9E2-26110225FA1F</string>
 	</array>
 	<key>uuid</key>
 	<string>5E6EA81F-EF36-4133-930A-7F512523CD30</string>

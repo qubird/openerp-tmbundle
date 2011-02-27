@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>Generic Field</string>
 	<key>scope</key>
-	<string>source.openerp.xml</string>
+	<string>text.xml.openerp</string>
 	<key>tabTrigger</key>
 	<string>field</string>
 	<key>uuid</key>

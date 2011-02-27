@@ -8,7 +8,7 @@
 	<key>name</key>
 	<string>Date Field</string>
 	<key>scope</key>
-	<string>source.openerp.py</string>
+	<string>source.python.openerp</string>
 	<key>tabTrigger</key>
 	<string>date</string>
 	<key>uuid</key>

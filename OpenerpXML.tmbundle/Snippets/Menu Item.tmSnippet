@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>Menu Item</string>
 	<key>scope</key>
-	<string>source.openerp.xml</string>
+	<string>text.xml.openerp</string>
 	<key>tabTrigger</key>
 	<string>menuitem</string>
 	<key>uuid</key>

@@ -18,7 +18,7 @@
 	<key>name</key>
 	<string>Inherited Tree View</string>
 	<key>scope</key>
-	<string>source.openerp.xml</string>
+	<string>text.xml.openerp</string>
 	<key>tabTrigger</key>
 	<string>tree+</string>
 	<key>uuid</key>

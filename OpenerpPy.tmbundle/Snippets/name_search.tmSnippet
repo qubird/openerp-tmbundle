@@ -18,7 +18,7 @@
 	<key>name</key>
 	<string>def name_search Method</string>
 	<key>scope</key>
-	<string>source.openerp.py</string>
+	<string>source.python.openerp</string>
 	<key>tabTrigger</key>
 	<string>name_search</string>
 	<key>uuid</key>

@@ -11,7 +11,7 @@
 	<key>name</key>
 	<string>Wizard Choice State</string>
 	<key>scope</key>
-	<string>source.openerp.py</string>
+	<string>source.python.openerp</string>
 	<key>tabTrigger</key>
 	<string>choicestate</string>
 	<key>uuid</key>

@@ -15,7 +15,7 @@
 	<key>name</key>
 	<string>Workflow Transition</string>
 	<key>scope</key>
-	<string>source.openerp.xml</string>
+	<string>text.xml.openerp</string>
 	<key>tabTrigger</key>
 	<string>wkf.trans</string>
 	<key>uuid</key>

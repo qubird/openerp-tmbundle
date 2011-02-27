@@ -25,7 +25,7 @@ f.close</string>
 	<key>name</key>
 	<string>__openerp__.py file</string>
 	<key>scope</key>
-	<string>source.openerp.py</string>
+	<string>source.python.openerp</string>
 	<key>uuid</key>
 	<string>790B3CCF-C5A9-4783-B0C1-C69C1FDA7E82</string>
 </dict>

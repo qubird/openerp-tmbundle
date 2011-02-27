@@ -9,7 +9,7 @@
 	<key>name</key>
 	<string>Generic Record</string>
 	<key>scope</key>
-	<string>source.openerp.xml</string>
+	<string>text.xml.openerp</string>
 	<key>tabTrigger</key>
 	<string>rec</string>
 	<key>uuid</key>

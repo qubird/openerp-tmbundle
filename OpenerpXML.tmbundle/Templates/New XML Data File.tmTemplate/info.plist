@@ -7,12 +7,14 @@
    TM_YEAR=`date +%Y` \
    TM_DATE=`date +%Y-%m-%d` \
    perl -pe 's/\$\{([^}]*)\}/$ENV{$1}/g' \
-      &lt; template_in.xml &gt; "$TM_NEW_FILE"
+      &lt; template_in &gt; "$TM_NEW_FILE"
 fi</string>
 	<key>extension</key>
 	<string>xml</string>
 	<key>name</key>
-	<string>New XML Data File</string>
+	<string>New Data File</string>
+	<key>scope</key>
+	<string>text.xml.openerp</string>
 	<key>uuid</key>
 	<string>030CD8C6-DC2A-4A4A-8834-558FB5B95F60</string>
 </dict>

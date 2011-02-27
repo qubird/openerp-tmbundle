@@ -14,7 +14,7 @@
 	<key>name</key>
 	<string>Workflow Activity</string>
 	<key>scope</key>
-	<string>source.openerp.xml</string>
+	<string>text.xml.openerp</string>
 	<key>tabTrigger</key>
 	<string>wkf.act</string>
 	<key>uuid</key>
