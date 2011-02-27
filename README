@@ -13,13 +13,17 @@ This program is free software: you can redistribute it and/or modify
 
 ------------------------------------------------------------------------
 
-PACKAGE INFO
 Textmate Bundles for OpenErp
 Snippets are meant to be used with Openerp 5 or later
 
-There are 2 Bundles in this package: OpenerpXML and OpenerpPy. 
-OpenerpXML allows you to easily create Openerp XML Data files and fill them by useful snippets for records, views, workflows, etc.
-OpenerpPy has been made to make your life simpler when developing osv models, wizards, etc.
+The original repository has been splitted into 2 different modules,
+according to the TextMate Team recommendation.
+The bundles you're looking for are:
 
-INSTALLATION
-Just copy the *.tmbundle files into your ~/Library/Application\ Support/TextMate/Bundles/ directory, and reload bundles. That's it!
+OpenerpPy: https://github.com/qubird/OpenerpPy.tmbundle
+OpenerpXML: https://github.com/qubird/OpenerpXML.tmbundle
+
+
+THIS REPOSITORY WILL BE NO LONGER UPDATED!
+
+------------------------------------------------------------------------
